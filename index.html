@@ -45,17 +45,21 @@
         }
 
         h2 {
-            color: #f8f9fa;
-			margin-top: 5px;
-            margin-bottom: 5px;
-            font-size: 26px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            background: linear-gradient(135deg, #00d1ff, #0052cc);
-            -webkit-background-clip: text;
-            color: transparent;
-            animation: textGlow 3s ease-in-out infinite;
-        }
+		color: #f8f9fa;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 26px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		background: linear-gradient(135deg, #00d1ff, #0052cc);
+		-webkit-background-clip: text;
+		color: transparent;
+		animation: textGlow 3s ease-in-out infinite;
+		white-space: nowrap; /* Prevents text from wrapping */
+		overflow: hidden; /* Ensures overflowed content is clipped */
+		text-overflow: ellipsis; /* Adds ellipsis (...) when text overflows */
+		max-width: 100%; /* Ensures it doesn't overflow its container */
+		}
 
         .logo-text-container {
             display: flex;
