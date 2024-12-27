@@ -73,7 +73,7 @@ WinInstaller.zip
 - All zip files must be packed **without compression**.
 
 ----
-#### Support My Work
+### Support My Work
 
 #### If you find my projects helpful, consider supporting my work! Your contributions will help me keep developing and sharing useful resources.
 
