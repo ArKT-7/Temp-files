@@ -71,3 +71,14 @@ WinInstaller.zip
 - Ensure there is **only one** `.esd` or `.wim` file in the `Download` folder.
 - Confirm that all file and folder names match the specifications above. **Names are case-sensitive**.
 - All zip files must be packed **without compression**.
+
+----
+## Support My Work
+
+#### If you find my projects helpful, consider supporting my work! Your contributions will help me keep developing and sharing useful resources.
+
+<p align="left">
+  <a href="https://www.buymeacoffee.com/kumarjy" target="_blank">
+    <img src="https://github.com/Kumar-Jy/Windows-in-PocoF1-Without-PC/blob/main/guide/buymecoffee.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;">
+  </a>
+</p>
