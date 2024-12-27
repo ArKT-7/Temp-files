@@ -4,20 +4,20 @@
 
 ---
 
-## 📄 Description
+### 📄 Description
 
 **WinInstaller** provides a flashable zip (no PC required) for installing Windows on supported ARM64 devices.
 
 ---
 
-## 📋 Prerequisites
+### 📋 Prerequisites
 
 - Ensure all necessary partitions for Windows installation (e.g., `win` and `esp`) are already created.
 - ⚠️ **Important**: The ESP partition size must be at least **350MB**.
 
 ---
 
-## 🔧 Preparation
+### 🔧 Preparation
 
 1. **Download and unpack** this repository as a zip.
 2. **Download the PE image** from [here](https://github.com/Kumar-Jy/WinInstaller/releases/download/WinPE/pe.img) and place it in the unpacked folder.
@@ -28,7 +28,7 @@
 
 ---
 
-## 📂 Folder Structure
+### 📂 Folder Structure
 
 Organize the folder structure as follows:
 
@@ -56,7 +56,7 @@ WinInstaller.zip
 
 ---
 
-## 💻 Flashing Instructions
+### 💻 Flashing Instructions
 
 1. **Download the Windows ESD image**:
    - Ensure it is located in the default download folder on your device.
@@ -66,14 +66,14 @@ WinInstaller.zip
 
 ---
 
-## ⚠️ Important Notes
+### ⚠️ Important Notes
 
 - Ensure there is **only one** `.esd` or `.wim` file in the `Download` folder.
 - Confirm that all file and folder names match the specifications above. **Names are case-sensitive**.
 - All zip files must be packed **without compression**.
 
 ----
-## Support My Work
+#### Support My Work
 
 #### If you find my projects helpful, consider supporting my work! Your contributions will help me keep developing and sharing useful resources.
 
