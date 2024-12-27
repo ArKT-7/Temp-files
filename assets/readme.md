@@ -6,7 +6,7 @@
 
 ## 📄 Description
 
-**WinInstaller** provides a flashable zip [without PC] for installing Windows on supported ARM64 devices.
+**WinInstaller** provides a flashable zip (no PC required) for installing Windows on supported ARM64 devices.
 
 ---
 
@@ -25,15 +25,33 @@
 4. **Download the Drivers Pack** for your device and unpack it. Then:
    - Select all files and repack them as `Driver.zip`.
    - Place the modified `Driver.zip` into the unpacked WinInstaller folder.
-5. Ensure the unpacked folder contains the following files and folders:
-   - `Driver.zip`
-   - `pe.img`
-   - `uefi.img`
-   - `META-INF`
 
-   *(All file and folder names are case-sensitive.)*
+---
 
-6. **Repack all files/folders** into a zip file. This will create your `WinInstaller.zip`.
+## 📂 Folder Structure
+
+Organize the folder structure as follows:
+
+```plaintext
+WinInstaller.zip
+
+-pe.img (WinPE image)
+-uefi.img (UEFI image)
+-install.bat (Batch script)
+-Driver.zip (Driver pack)
+-wimlib-imagex (Binary file)
+-gdisk (Binary file)
+-sta.exe (Executable file)
+-META-INF (Folder)
+       └── com (Folder)
+           └── google (Folder)
+               └── update-binary (Binary script)
+               └── updater-script (Binary script)
+```
+
+*(All file and folder names are case-sensitive.)*
+
+5. **Repack all files/folders** into a zip file. This will create your `WinInstaller.zip`.
 
 ---
 
@@ -51,6 +69,4 @@
 
 - Ensure there is **only one** `.esd` or `.wim` file in the `Download` folder.
 - Confirm that all file and folder names match the specifications above. **Names are case-sensitive**.
-- Ensure all zip files are packed **without compression**.
-
----
+- All zip files must be packed **without compression**.
